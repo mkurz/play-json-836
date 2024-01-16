@@ -2,6 +2,6 @@ name := "play-json-836"
 
 lazy val root = (project in file("."))
 
-scalaVersion := "3.3.1-RC4"
+scalaVersion := "3.3.1"
 
-libraryDependencies += "com.typesafe.play" %% "play-json" % "2.10.0-RC9"
+libraryDependencies += "org.playframework" %% "play-json" % "3.0.1"
